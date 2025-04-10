@@ -28,6 +28,7 @@ const Left = styled.div`
 const Language = styled.span`
   font-size: 20px;
   font-weight: bold;
+  font-family: "Poppins", sans-serif;
   cursor: pointer;
   ${mobile({ display: "none" })}
 `;
@@ -65,26 +66,28 @@ const Right = styled.div`
 const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
+  text-decoration: none;
   margin-left: 25px;
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
+
 
 const Navbar = () => {
   return (
     <Container>
       <Wrapper>
         <Left>
-          <Language>BETTY</Language>
+          <Language>BETTYDESIGNSGALLERY</Language>
         </Left>
         <Right>
           <MenuItem>
-            <Link to="/">HOME</Link>
+            <Link to="#">HOME</Link>
           </MenuItem>
           <MenuItem>
-            <Link to="/contact">CONTACT</Link>
+            <Link to="#contact">CONTACT</Link>
           </MenuItem>
           <MenuItem>
-            <Link to="/about">ABOUT US</Link>
+            <Link to="#about">ABOUT US</Link>
           </MenuItem>
         </Right>
       </Wrapper>

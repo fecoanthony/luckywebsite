@@ -6,6 +6,7 @@ import Slider from './components/Slider'
 import Products from './components/Products'
 import Footer from './components/Footer'
 import AboutUs from './components/AboutUs'
+import './App.css'
 
 const App = () => {
   return (
