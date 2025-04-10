@@ -86,7 +86,7 @@ const Payment = styled.img`
 
 const Footer = () => {
   return (
-    <Container id="footer">
+    <Container id="contact">
       <Left>
         <Logo>BETTYDESIGNGALLERY</Logo>
         <Desc>

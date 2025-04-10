@@ -3,6 +3,8 @@ import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
 import { mobile } from "../responsive";
+import { HashLink as Link } from "react-router-hash-link";
+
 
 const Container = styled.div`
   height: 60px;
@@ -75,11 +77,14 @@ const Navbar = () => {
           <Language>BETTY</Language>
         </Left>
         <Right>
-          <MenuItem>HOME</MenuItem>
-          <MenuItem>CONTACT</MenuItem>
-          <MenuItem>ABOUT US</MenuItem>
           <MenuItem>
-          
+            <Link to="/">HOME</Link>
+          </MenuItem>
+          <MenuItem>
+            <Link to="/contact">CONTACT</Link>
+          </MenuItem>
+          <MenuItem>
+            <Link to="/about">ABOUT US</Link>
           </MenuItem>
         </Right>
       </Wrapper>
