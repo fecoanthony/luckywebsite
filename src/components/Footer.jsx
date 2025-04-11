@@ -132,7 +132,7 @@ const Footer = () => {
           <Room style={{marginRight:"10px"}}/> 1301 N Harrison St , Wilmington, Delaware 19806. USA
         </ContactItem>
         <ContactItem>
-          <Phone style={{marginRight:"10px"}}/> +1 702 7716152, +1 302 -223-9380
+          <Phone style={{marginRight:"10px"}}/> +1 702 -771-6152, +1 302 -223-9380
         </ContactItem>
         <ContactItem>
           <MailOutline style={{marginRight:"10px"}} /> BettyMcdowell@bettydesigngallery.com
