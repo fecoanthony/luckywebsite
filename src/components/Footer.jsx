@@ -9,6 +9,7 @@ import {
 } from "@material-ui/icons";
 import styled from "styled-components";
 import { mobile } from "../responsive";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   display: flex;
@@ -95,7 +96,9 @@ const Footer = () => {
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">
+            <Link to="https://www.facebook.com/share/15PmBC6mHc/?mibextid=wwXIfr">
             <Facebook />
+            </Link>
           </SocialIcon>
           <SocialIcon color="E4405F">
             <Instagram />
@@ -129,10 +132,11 @@ const Footer = () => {
           <Room style={{marginRight:"10px"}}/> 1301 N Harrison St , Wilmington, Delaware 19806. USA
         </ContactItem>
         <ContactItem>
-          <Phone style={{marginRight:"10px"}}/> +1 (702) 7716152, +1 (302) -223-9380
+          <Phone style={{marginRight:"10px"}}/> +1 702 7716152, +1 302 -223-9380
         </ContactItem>
         <ContactItem>
           <MailOutline style={{marginRight:"10px"}} /> BettyMcdowell@bettydesigngallery.com
+          <MailOutline style={{marginRight:"10px"}} /> bettydesign2008@gmail.com
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
